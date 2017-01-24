@@ -7,11 +7,8 @@
 class Main {
 
     public static void main(String[] args) {
-
         RandomStringChooser chooser =
-
                 new RandomStringChooser(new String[]{"wheels", "on", "the", "bus"});
-
 
         for (int k = 0; k < 6; k++) {
 
@@ -19,11 +16,9 @@ class Main {
 
         }
 
-
-        RandomLetterChooser letterChooser =
-                new RandomLetterChooser("cat");
-        for (int k = 0; k < 4; k++) {
-            System.out.print(letterChooser.getNext());
+        RandomLetterChooser letterChooser = new RandomLetterChooser("cat");
+        for (int k=0; k< 5; k++) {
+            System.out.print(" " + letterChooser.getNext());
         }
     }
 }

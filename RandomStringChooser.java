@@ -14,6 +14,7 @@ public class RandomStringChooser {
     }
 
 
+
     public String getNext() {
 
         if (words.size() == 0)
